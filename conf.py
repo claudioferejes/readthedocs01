@@ -30,3 +30,7 @@ language = 'pt_BR'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+# -- Options for output ------------------------------------------------------
+# Define o diretório de saída da compilação
+html_output = 'docs/_build/html'
