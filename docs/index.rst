@@ -15,7 +15,7 @@ e intuitiva.
    :maxdepth: 2
    :caption: Contents:
 
-   Capitulo Inicial.rst  # Substitua com o nome do seu primeiro documento
+   chapter1.rst  # Substitua com o nome do seu primeiro documento
    chapter2.rst  # Substitua com o nome do seu segundo documento
 
 Indices and tables
