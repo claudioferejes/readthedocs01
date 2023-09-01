@@ -18,7 +18,12 @@ extensions = [
     'sphinx.ext.autodoc',    # Geração automática de documentação a partir do código-fonte
     'sphinx.ext.napoleon',   # Suporte para docstrings estilo Google
     'sphinx.ext.viewcode',   # Links para o código-fonte
+    'sphinx.ext.autosummary',
 ]
+
+# Set the location of the autosummary templates
+autosummary_generate = True
+autosummary_imported_members = True
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
