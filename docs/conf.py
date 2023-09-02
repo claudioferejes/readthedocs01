@@ -35,6 +35,9 @@ language = 'pt_BR'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+# Exclui a geração de HTML ao criar o formato EPUB
+if tags.has('epub'):
+    html_theme = 'basic'
 
 # -- Options for output ------------------------------------------------------
 # Define o diretório de saída da compilação
