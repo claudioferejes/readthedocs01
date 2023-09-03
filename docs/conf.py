@@ -50,5 +50,5 @@ epub_language = 'pt_BR'
 epub_scheme = 'URL do seu site'
 epub_identifier = 'URL única para seu livro'
 epub_uid = 'Identificador único'
-epub_cover = ('_static/cover.png', 'cover.html')
+# epub_cover = ('_static/cover.png', 'cover.html')
 epub_exclude_files = ['_static/*']
