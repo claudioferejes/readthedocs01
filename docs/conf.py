@@ -52,3 +52,10 @@ epub_identifier = 'URL única para seu livro'
 epub_uid = 'Identificador único'
 # epub_cover = ('_static/cover.png', 'cover.html')
 epub_exclude_files = ['_static/*']
+
+# Define o diretório de saída da compilação para o Read the Docs
+if 'READTHEDOCS' in os.environ:
+    html_output = os.path.join(os.environ['READTHEDOCS_OUTPUT'], 'html')
+else:
+    # Caso contrário, use o diretório local padrão
+    html_output = '_build/html'
